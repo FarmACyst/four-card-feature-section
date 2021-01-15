@@ -14,7 +14,6 @@ body {
   font-weight: 200;
   font-size: 15px;
   text-align: center;
-  /* background-color: hsl(0, 0%, 98%); */
   color: hsl(229, 6%, 66%);
 }
 
@@ -24,7 +23,7 @@ body {
 }
 
 .header {
-  margin: 5em 0 5em;
+  margin: 5em 0 4em;
 }
 
 .heading {
@@ -82,19 +81,19 @@ body {
 }
 
 .first-card {
-  border-top: 5px solid hsl(180, 62%, 55%);
+  border-top: 3.5px solid hsl(180, 62%, 55%);
 }
 
 .second-card {
-  border-top: 5px solid hsl(0, 78%, 62%);
+  border-top: 3.5px solid hsl(0, 78%, 62%);
 }
 
 .third-card {
-  border-top: 5px solid hsl(34, 97%, 64%);
+  border-top: 3.5px solid hsl(34, 97%, 64%);
 }
 
 .fourth-card {
-  border-top: 5px solid hsl(212, 86%, 64%);
+  border-top: 3.5px solid hsl(212, 86%, 64%);
 }
 
 .middle-card {
@@ -105,7 +104,7 @@ body {
 @media (min-width:610px) {
   .heading,
   .sub-heading {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 }
 
@@ -130,6 +129,6 @@ body {
     justify-content: center;
   }
   .header {
-    margin-bottom: 2em;
+    margin-bottom: 4em;
   }
 }
